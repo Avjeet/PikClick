@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hasneetsingh.pikclick.MainActivity"
+    android:background="@android:color/background_light"
+    >
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:name="com.example.hasneetsingh.pikclick.CardListFragment"
+        tools:layout="@layout/card_list"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="@dimen/min_fab_size"
+        android:layout_height="@dimen/min_fab_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</RelativeLayout>
