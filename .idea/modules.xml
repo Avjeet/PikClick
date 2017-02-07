@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/PikClick-master.iml" filepath="$PROJECT_DIR$/PikClick-master.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/PikClick.iml" filepath="$PROJECT_DIR$/PikClick.iml" />
+>>>>>>> 0857c968443acce9ae2490844b0c0a50f7f29d53
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
