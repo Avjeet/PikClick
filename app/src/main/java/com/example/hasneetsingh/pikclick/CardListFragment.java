@@ -14,7 +14,7 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CardListFragment extends ListFragment {
+public class CardListFragment extends android.app.ListFragment {
 
 
     public CardListFragment() {
@@ -35,7 +35,6 @@ public class CardListFragment extends ListFragment {
         cards.add(new Card("Tony Martin","Master Card"));
 
         CardAdapter adapter = new CardAdapter(getActivity(),cards);
-
         setListAdapter(adapter);
     }
 }

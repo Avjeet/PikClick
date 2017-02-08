@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">PikClick</string>
-<<<<<<< HEAD
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-=======
->>>>>>> 0857c968443acce9ae2490844b0c0a50f7f29d53
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string-array name="drawer_list_items">
+        <item>Most Searched</item>
+        <item>Important</item>
+        <item>Trash</item>
+    </string-array>
+
 </resources>

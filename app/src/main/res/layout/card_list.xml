@@ -9,5 +9,4 @@
     android:background="@android:color/background_light"
     android:divider="@null"
     android:dividerHeight="4dp"
-
     />
